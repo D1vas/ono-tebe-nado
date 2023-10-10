@@ -1,1 +1,24 @@
-/* место для вашего кода */
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 400;
+    
+}
+
+.header {
+display: flex;
+align-content: center;
+display: flex;
+align-content: center;
+}
+
+.header_logo-image {
+width: 148px;
+height: 105px;
+flex-shrink: 0;
+}
+
+.header_menu-link {
+list-style: circle;
+}
