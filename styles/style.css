@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background-color: #fff;
-  font-family: "Raleway", sans-serif;
   font-size: 400;
 }
 
@@ -12,42 +11,45 @@ body {
 }
 
 .header_logo-image {
-  width: 148px;
   height: 105px;
-  flex-shrink: 0;
+  width: 148px;
   margin-left: 209px;
   margin-right: 355px;
   margin-top: 92px;
 }
-
-.header_menu-item {
+.header_menu-list {
   display: inline-block;
-  color: #000;
-  font-family: "Raleway", sans-serif;
+  margin-left: 51px;
+  margin-top: 58px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 135px;
+  
+  
 }
-
-.header_menu-link {
-  list-style: circle;
-  margin-left: 32px;
-  color: #111;
-}
-
 .header_menu {
-  margin-left: 51px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.header_menu-item-1 {
+  margin-right: -2px;
+}
+
+.header_menu-item-2 {
+  margin-left:30px;
+  padding-left: -5px;
+  list-style: circle;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .adress_list {
   list-style-type: none;
   font-style: normal;
   color: #000;
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
 }
