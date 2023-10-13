@@ -231,7 +231,8 @@
   width: 1440px;
   display: flex;
   margin-top: 181px;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap:wrap
 }
 
 .about_logo {
@@ -264,13 +265,18 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin-left: 500px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-bottom: 102px;
+  
 }
 
 .about_text {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  margin-left: 500px;
- 
+  margin-left: 503px;
+  margin-right: 60px;
+  margin-bottom: 25px;
+
 }
