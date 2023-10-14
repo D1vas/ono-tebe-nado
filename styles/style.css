@@ -34,7 +34,7 @@
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 .adress-top {
@@ -44,7 +44,7 @@
 }
 
 .adress_top-link {
-  text-underline-offset: 7px;
+  text-underline-offset: 4px;
 }
 
 .cover {
@@ -278,5 +278,44 @@
   margin-left: 503px;
   margin-right: 60px;
   margin-bottom: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 155px;
+
+}
+
+.footer_social-list-item {
+  width: 48px;
+  height: 48px;
+
+}
+
+.footer_social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: end;
+  align-items: center;
+  gap: 20px 48px;
+  max-width: 240px;
+  list-style: none;
+}
+
+.adress_footer {
+  margin-left: 49px;
+  text-underline-offset: 4px;
+}
+
+.footer_menu{ 
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer_menu-list-item {
+  list-style: none;
 
 }
