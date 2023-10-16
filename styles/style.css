@@ -1,7 +1,6 @@
 .body {
   max-width: 1440px;
   margin: auto;
-  margin-top: -20px;
 }
 
 .header_content-section {
@@ -9,6 +8,7 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   padding: 92px 49px 96px 51px;
+  margin-top: -15px;
 }
 
 .header_links-list {
@@ -60,6 +60,7 @@
   background-size: cover;
   width: 1440px;
   height: 757px;
+  margin-top: -5px;
 }
 
 .overlay {
@@ -139,7 +140,7 @@
 
 .lots {
   
-  margin-top: 176px;
+  margin-top: 180px;
 }
 
 .lots_heading {
@@ -275,7 +276,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  margin-left: 503px;
+  margin-left: 504px;
   margin-right: 60px;
   margin-bottom: 25px;
 }
