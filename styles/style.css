@@ -1,6 +1,7 @@
 .body {
   max-width: 1440px;
   margin: auto;
+  margin-top: -20px;
 }
 
 .header_content-section {
