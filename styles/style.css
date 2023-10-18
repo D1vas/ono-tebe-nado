@@ -7,8 +7,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  padding: 92px 49px 92px 51px;
+  padding: 92px 50px 92px 50px; 
 }
+
 
 .header_links-list {
   display: flex;
@@ -307,7 +308,7 @@
 }
 
 .adress_footer {
-  margin-left: 49px;
+  margin-left: 50px;
   text-underline-offset: 4px;
 }
 .footer_social-link {
